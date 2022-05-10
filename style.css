@@ -52,11 +52,33 @@ p {
     border: 10px;
 }
 
+.icon {
+    text-align: right;
+    width:20px;
+    height:20px;
+    padding-bottom:5px;
+    padding-right: 50px;
+    
+
+}
 .footer {
-    background: rgb(114, 133, 201);
-    height: 13%;
-    padding-top: 0px;
-    padding-bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    background-color: #2F2F2F;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+mark.orange {
+    color:orange;
+    background: none;
 }
 
 body {
