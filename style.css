@@ -1,9 +1,18 @@
-h1 {}
-
-p {
-    font-family: Arial;
+h4 {
+    color: orange;
 }
 
+p, ul {
+    font-family: Arial;
+    color:rgba(255, 255, 255, 0.987);
+    font-size: large;
+    padding-right: 50%;
+}
+
+table, th, td {
+    border: 1px solid orange;
+    color: aliceblue;
+}
 
 .container {
     position: relative;
