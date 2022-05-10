@@ -1,0 +1,64 @@
+h1 {}
+
+p {
+    font-family: Arial;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+}
+
+.centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30;
+    font-family: Georgia;
+}
+
+.avatar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 15%;
+    height: 35%;
+    text-align: center;
+    border: 5px;
+    top: 40%;
+    left: 50%
+}
+
+.row {
+    display: flex;
+}
+
+.row_footer {
+    display: flex;
+    padding: 0px;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.column_footer {
+    flex: 50%;
+    border: 10px;
+}
+
+.footer {
+    background: rgb(114, 133, 201);
+    height: 13%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #c8eaf1;
+}
