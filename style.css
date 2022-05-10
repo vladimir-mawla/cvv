@@ -33,6 +33,18 @@ p {
 
 }
 
+.bar {
+    position: relative;
+
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+
+
+
+
+}
+
 .row {
     display: flex;
 }
