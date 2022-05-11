@@ -44,7 +44,7 @@ table, th, td {
 
 .bar {
     position: relative;
-
+    font-size: large;
     justify-content: space-around;
     display: flex;
     text-align: center;
@@ -96,7 +96,9 @@ table, th, td {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid orange;
 }
+
 
 .orange {
     color: orange;
